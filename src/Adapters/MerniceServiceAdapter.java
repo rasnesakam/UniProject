@@ -1,10 +1,10 @@
-package Adapters;
+package adapters;
 
 import java.rmi.RemoteException;
 
-import Abstract.ICustomerCheckService;
-import Entities.Customer;
-import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
+import business.abstracts.ICustomerCheckService;
+import core.tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
+import entities.concretes.Customer;
 
 
 public class MerniceServiceAdapter implements ICustomerCheckService{
