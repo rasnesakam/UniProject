@@ -2,72 +2,67 @@ package entities.concretes;
 
 import java.time.LocalDate;
 
-import entities.abstracts.IEntity;
+import entities.abstracts.Entity;
 
-public class Customer implements IEntity{
+public class Customer implements Entity{
 	
-	 
+	private int id;
+	private String firstName;
+	private String lastName;
+	private LocalDate dateOfBirth;
+	private String nationalityId;
 	
+	public Customer(int id, String firstName, String lastName, LocalDate dateOfBirth, String nationalityId) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+		this.nationalityId = nationalityId;
+	}
 
-	
-	 	
-	  private int Id;
-	  private String FirstName;
-	  private String LastName;
-	  private LocalDate DateOfBirth;
-	  private String NationalityId;
-	  
-	  
-	  
-	  
-	  public Customer(LocalDate DateOfBirth, String FirstName, String LastName, String NationalityId) {
-		  this.DateOfBirth=DateOfBirth;
-		  this.FirstName=FirstName;
-		  this.LastName=LastName;
-		  this.NationalityId=NationalityId;
-		  
-	  }
-	  
-	  
-	  
-	  
-	  
 	public int getId() {
-		return Id;
+		return id;
 	}
+
 	public void setId(int id) {
-		Id = id;
+		this.id = id;
 	}
+
 	public String getFirstName() {
-		return FirstName;
+		return firstName;
 	}
+
 	public void setFirstName(String firstName) {
-		FirstName = firstName;
+		this.firstName = firstName;
 	}
+
 	public String getLastName() {
-		return LastName;
+		return lastName;
 	}
+
 	public void setLastName(String lastName) {
-		LastName = lastName;
+		this.lastName = lastName;
 	}
+
 	public LocalDate getDateOfBirth() {
-		return DateOfBirth;
+		return dateOfBirth;
 	}
+
 	public void setDateOfBirth(LocalDate dateOfBirth) {
-		DateOfBirth = dateOfBirth;
+		this.dateOfBirth = dateOfBirth;
 	}
+
 	public String getNationalityId() {
-		return NationalityId;
+		return nationalityId;
 	}
+
 	public void setNationalityId(String nationalityId) {
-		NationalityId = nationalityId;
+		this.nationalityId = nationalityId;
 	}
 	  
 	  
 	  
-	  
-	  
-	  
-	}
+}
 
 
