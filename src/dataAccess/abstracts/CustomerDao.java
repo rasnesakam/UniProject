@@ -8,4 +8,6 @@ public interface CustomerDao {
 
 	List<Entity> getAll();
 	
+	void add(Entity entity);
+	
 }

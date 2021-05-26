@@ -43,17 +43,18 @@ public class Main {
 	
 	
 	public static void musterisirala1() {
-		String musterisirala1;
-		Customer musteri = new Customer(
-				0, firstname() , lastname(), dateOfBirth() , nationalityId()
-				) ; 
+		
+		/**
+		 * 
+		 */
+		
 	}
 	
 	public static void musteriekle1() {
 		String musteriekle1;
 		Customer musteri = new Customer(
 				0, firstname() , lastname(), dateOfBirth() , nationalityId()
-				) ; 
+		) ; 
 	}
 	
 	public static String firstname() {
