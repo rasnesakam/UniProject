@@ -1,10 +1,11 @@
 package entities.concretes;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import entities.abstracts.Entity;
 
-public class Customer implements Entity{
+public class Customer implements Entity, Serializable{
 	
 	private int id;
 	private String firstName;
