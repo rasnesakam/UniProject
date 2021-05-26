@@ -12,6 +12,13 @@ public abstract class  BaseCustomerManager implements ICustomerService {
 		
 		
 	}
+
+	@Override
+	public void listAll() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	
 	
 

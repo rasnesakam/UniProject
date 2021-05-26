@@ -61,8 +61,18 @@ public class Customer implements Entity, Serializable{
 	public void setNationalityId(String nationalityId) {
 		this.nationalityId = nationalityId;
 	}
+
+	@Override
+	public String toString() {
+		
+		return String.format(
+				"%s\t|\t%s\t|\t%s\t|\t%s",
+				firstName,lastName,dateOfBirth.toString(),nationalityId
+				);
+	
+	}
 	  
-	  
+	
 	  
 }
 
