@@ -7,12 +7,9 @@ public class CustomerCheckManager  implements ICustomerCheckService{
 	
 	
 		
-		public boolean Check›fRealPerson(Customer customer){
-			
+		public boolean CheckIfRealPerson(Customer customer){
 			
 			return true;
-			
-			
 		}
 		
 		

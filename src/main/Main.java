@@ -1,17 +1,9 @@
 package main;
 
-import java.nio.charset.Charset;
 import java.time.DateTimeException;
 import java.time.LocalDate;
-import java.util.Random;
-
-import adapters.MerniceServiceAdapter;
-import business.abstracts.BaseCustomerManager;
 import business.abstracts.ICustomerService;
-import business.concretes.NeroCustomerManager;
 import business.concretes.SerializableCustomerManager;
-import business.concretes.StarbucksCustomerManager;
-import entities.abstracts.Entity;
 import entities.concretes.Customer;
 import java.util.Scanner;
 

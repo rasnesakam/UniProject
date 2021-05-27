@@ -4,7 +4,7 @@ import entities.concretes.Customer;
 
 public interface ICustomerCheckService {
 	
-	boolean Check›fRealPerson(Customer customer);
+	boolean CheckIfRealPerson(Customer customer);
 
 
 }

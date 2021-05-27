@@ -22,7 +22,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 	
 	public void Save(Customer customer) {
 		
-		if(_customerCheckService.Check›fRealPerson(customer)) {
+		if(_customerCheckService.CheckIfRealPerson(customer)) {
 			super.Save(customer);	
 		}else {
 			
